@@ -1,0 +1,21 @@
+/*CSS*/
+@import "header.css";
+@import "cards.css";
+
+#main-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "cards"
+    "footer";
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #bcd2db;
+    padding: 10px;
+}

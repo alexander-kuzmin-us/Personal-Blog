@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    grid-area: header;
+    background-color: #bcd2db;
+    padding: 10px;
+}
+
+nav {
+    
+}

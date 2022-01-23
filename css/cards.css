@@ -1,0 +1,15 @@
+#cards-container {
+    display: grid;
+    grid-template-columns: auto, auto;
+    grid-template-rows: auto, auto;
+    grid-template-areas: 
+    "card card"
+    "card card"
+    "card card";
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: #e1e2db;
+    padding: 10px;
+}
