@@ -3,8 +3,33 @@ header {
     grid-area: header;
     background-color: #bcd2db;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 nav {
-    
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+input {
+    border: 2px, solid, rgb(107, 120, 145);
+    border-radius: 14px;
+}
+
+.button {
+    background-color: rgb(78, 91, 95);
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 16px;
 }

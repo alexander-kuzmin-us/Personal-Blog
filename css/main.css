@@ -1,6 +1,7 @@
 /*CSS*/
 @import "header.css";
 @import "cards.css";
+@import "mobile.css";
 
 #main-container {
     display: grid;
@@ -17,5 +18,70 @@
 footer {
     grid-area: footer;
     background-color: #bcd2db;
+    border-radius: 10px;
     padding: 10px;
+
+}
+
+h2 {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+p {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+a:link {
+    color: rgb(133, 168, 212);
+}
+
+a:visited {
+    color: rgb(169, 171, 172);
+}
+
+a:hover {
+    color: rgb(121, 165, 134);
+}
+
+a:active {
+    color: rgb(53, 129, 123);
+}
+
+h3 { 
+    color: #111;
+    font-family: 'Montserrat';
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: left; 
+}
+
+h5 {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+span {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
 }

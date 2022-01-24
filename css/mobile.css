@@ -1,0 +1,24 @@
+@media all and (min-width: 320px) and (max-width: 480px) {
+
+    #cards-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "card"
+        "card"
+        "card"
+        "card"
+        "card"
+        "card";
+        grid-gap: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .card {
+        background-color: #e1e2db;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
