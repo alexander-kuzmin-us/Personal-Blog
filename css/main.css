@@ -3,6 +3,11 @@
 @import "cards.css";
 @import "mobile.css";
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 #main-container {
     display: grid;
     grid-template-columns: auto;
@@ -20,7 +25,6 @@ footer {
     background-color: #bcd2db;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 h2 {
@@ -84,4 +88,15 @@ span {
     font-style: normal;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 13px;
+}
+
+.button {
+    padding: 5px 15px;
+    border: 0 none;
+}
+
+#input-botton {
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 0 none;
 }

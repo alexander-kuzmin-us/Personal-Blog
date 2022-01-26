@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+a:link {
+    color: rgb(90, 140, 202);
+}
+
+a:visited {
+    color: rgb(169, 171, 172);
+}
+
+a:hover {
+    color: rgb(121, 165, 134);
+}
+
+a:active {
+    color: rgb(53, 129, 123);
+}
+
+#about-card {
+    height: 200px;
+    background-color: rgb(228, 227, 227);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.archives, .elsewhere{
+    background-color: rgb(222, 226, 230);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    position: fixed;
+    right: 10px;
+    margin: 20px;
+}
+
+#post-container {
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "left left left right"
+    "footer footer footer footer";
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.left-collumn {
+    grid-area: left;
+    background-color: rgb(207, 227, 230);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.right-collumn {
+    grid-area: right;
+    max-width: 400px;
+}
+
+span {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #bcd2db;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main-header {
+    grid-area: header;
+    background-color: #bcd2db;
+    border-radius: 10px;
+}
+
+h3 { 
+    color: #111;
+    font-family: 'Montserrat';
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: left; 
+}
+
+h5 {
+    color: #685206;
+    font-style: normal;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    float: left;
+    width: 180px;
+    height: 190px;
+    opacity: 0.8;
+    margin: 10px;
+    border-radius: 10px;
+}
