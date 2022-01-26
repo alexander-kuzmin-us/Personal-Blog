@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 html, body {
     margin: 0;
     height: 100%;
@@ -30,6 +32,7 @@ a:active {
     border-radius: 10px;
     padding: 10px;
     margin-top: 0;
+    overflow: scroll;
 }
 
 .archives, .elsewhere{
@@ -98,6 +101,7 @@ ul {
 
 .main-header {
     grid-area: header;
+    height: 60px;
     background-color: #bcd2db;
     border-radius: 10px;
 }

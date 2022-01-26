@@ -28,3 +28,32 @@
     }
 
 }
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    #post-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "left"
+        "footer";
+        grid-gap: 10px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .right-collumn {
+        display: none;
+    }
+
+    .main-header {
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    footer {
+        margin-right: 10px;
+    }
+
+}
