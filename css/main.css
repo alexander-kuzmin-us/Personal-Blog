@@ -12,7 +12,7 @@ html, body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
     "header"
     "cards"
     "footer";
@@ -44,7 +44,7 @@ p {
     font-size: 16px;
     line-height: 18px;
     text-align: justify;
-    text-justify: inter-word; 
+    text-justify: inter-word;
 }
 
 a {
@@ -68,12 +68,12 @@ a:active {
     color: rgb(53, 129, 123);
 }
 
-h3 { 
+h3 {
     color: #111;
     font-family: 'Montserrat';
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: bold;
-    text-align: left; 
+    text-align: left;
 }
 
 h5 {

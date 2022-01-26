@@ -4,7 +4,7 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-        grid-template-areas: 
+        grid-template-areas:
         "card"
         "card"
         "card"
@@ -34,7 +34,7 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-        grid-template-areas: 
+        grid-template-areas:
         "header"
         "left"
         "footer";
