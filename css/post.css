@@ -29,9 +29,8 @@ a:active {
 #about-card {
     height: 200px;
     background-color: rgb(228, 227, 227);
-    border-radius: 10px;
     padding: 10px;
-    margin-top: 0;
+    margin: 10px;
     overflow: scroll;
 }
 
@@ -42,8 +41,7 @@ a:active {
 }
 
 .button {
-    position: fixed;
-    right: 10px;
+    float: right;
     margin: 20px;
 }
 

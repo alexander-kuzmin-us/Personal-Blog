@@ -9,10 +9,13 @@ header {
 }
 
 nav {
+    display: flex;
     padding: 10px;
+    margin: 5px;
 }
 
 form {
+    display: flex;
     padding: 10px;
 }
 
