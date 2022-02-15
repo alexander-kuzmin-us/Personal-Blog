@@ -22,6 +22,7 @@ html, body {
 
 footer {
     grid-area: footer;
+    bottom: 0;
     background-color: #bcd2db;
     border-radius: 10px;
     padding: 10px;
@@ -53,7 +54,7 @@ a {
 }
 
 a:link {
-    color: rgb(133, 168, 212);
+    color: #e1e2db;
 }
 
 a:visited {
@@ -61,7 +62,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(121, 165, 134);
+    color: rgb(255, 255, 255);
 }
 
 a:active {
